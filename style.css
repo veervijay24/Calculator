@@ -1,0 +1,114 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(170, 239, 239);
+}
+
+/* ------  css for menu------------- */
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 50px;
+    
+}
+/* .menu{
+    display: flex;
+    justify-content: space-between;
+    /* margin-bottom: 20px;
+    margin-top: 10px; */
+    /*margin: 10px 20px;
+    gap: 60px;
+} */
+/* img{
+    height: 50px;
+    width: 50px;
+    /* box-shadow: 0px 0px 10px 1px black; */
+    /*cursor: pointer;
+    padding: 2px;
+} */
+/* .ham{
+    width: 40px;
+    height: 3px;
+    margin: 3px;
+    background-color: black;
+    /* box-shadow: 0px 0px 10px 1px rgb(130, 124, 124); */
+/*} */
+/* .right{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 20px;
+    align-items:center;
+} */
+/* .hamburger{
+    cursor: pointer;
+    padding: 5px;
+} */
+/* .hover-menu{
+    box-shadow: 0px 0px 10px 1px black;
+    background-color: rgb(188, 188, 246);
+    border-radius: 50%;
+} */
+/* .hover-menu:hover{
+    /* background-color: rgb(134, 227, 134); */
+   /* box-shadow: 0px 0px 10px 1px rgb(6, 129, 8);
+    transform: rotate(180deg);
+    scale: 1.2;
+    
+} */
+
+
+/* -------- css for keypad ----------- */
+.keypad{
+    height: 350px;
+    padding: 20px;
+    background-color: aqua;
+    width: 300px;
+    border-radius: 20px;
+}
+.firstline{
+    display: flex;
+    gap: 10px;
+}
+.firstline>div{
+    background-color: green;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5px;
+    cursor: pointer;
+}
+.firstline>div:hover{
+    box-shadow: 0px 0px 10px 1px rgb(6, 129, 8);
+    scale: 1.1;
+}
+#text{
+    width: 500px;
+    height: 50px;
+}
+#text::placeholder{
+    color: green;
+    text-align: center;
+}
+
+
+
+input{
+    margin-top: 20px;
+    padding: 10px;
+    width: 300px;
+    border-radius: 5px;
+}
+input::placeholder{
+    color: green;
+    text-decoration: brown;
+    font-weight: bold;
+}
